@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>William Parkhouse - Profile</title>
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+   <!-- Main Stylesheet -->
+   <link rel="stylesheet" href="styles.css" />
+   <!-- AOS Animation Library -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+   <!-- Font Awesome for Social Icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+   <header>
+      <div class="header-container">
+         <div class="header-left">
+            <h1>William Parkhouse</h1>
+         </div>
+         <div class="header-right">
+            <button class="menu-toggle" id="menu-toggle">
+               <i class="fas fa-bars"></i>
+            </button>
+            <nav id="nav-menu">
+               <ul>
+                  <li><a href="#hero">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#cv">CV</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </nav>
+            <button class="light-mode-toggle" id="light-mode-toggle">
+               <i class="fas fa-sun"></i>
+            </button>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero" data-aos="fade-up">
+         <div class="hero-content">
+            <img src="./headshot-1mb.jpg" alt="William Parkhouse Photo" class="hero-photo" />
+            <div class="hero-text">
+               <p>Software Engineer Intern | AI Enthusiast | Startup Co-founder</p>
+               <a href="#cv" class="button">View CV</a>
+            </div>
+         </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" data-aos="fade-up">
+         <h2>About Me</h2>
+         <p>
+            I’m William Parkhouse, an AI and Computer Science student with a passion for technology, innovation, and creative problem-solving. Whether I’m developing backend microservices at Hewlett Packard Enterprise, teaching at the University of Birmingham, or co-founding raiss – a platform that leverages cutting-edge RAG AI to revolutionize shopping search – I bring a blend of technical expertise and entrepreneurial spirit to every project. I thrive on merging rigorous engineering with real-world business insights, and I’m always eager to explore emerging tech trends and creative solutions.
+         </p>
+         <p>
+            When I’m not coding or strategizing, I enjoy working on multimedia projects and mentoring peers. Feel free to explore my portfolio below or <a href="https://raiss.ai/" target="_blank">visit raiss.ai</a> to learn more about my startup.
+         </p>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" data-aos="fade-up">
+         <h2>Experience</h2>
+         <div class="experience-cards">
+
+            <!-- Experience 1 -->
+            <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
+               <h3>Software Engineering Intern</h3>
+               <p><em>Hewlett Packard Enterprise | July 2024 - Present</em></p>
+               <p>
+                  Developing and maintaining backend microservices for cloud storage. Engineered APIs for high-throughput data ingestion and implemented innovative contract testing and anomaly detection systems – including a CO2 tracking system for microservice emissions.
+               </p>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="experience-card" data-aos="zoom-in" data-aos-delay="150">
+               <h3>Teaching Assistant</h3>
+               <p><em>University of Birmingham | Sept 2023 - April 2024</em></p>
+               <p>
+                  Facilitated group tutorials and one-to-one sessions for modules such as Mathematical &amp; Logic Foundations for Computer Science and Full Stack Application Development, covering topics from abstract algebra to concurrent programming.
+               </p>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="experience-card" data-aos="zoom-in">
+               <h3>Freelance Audio Engineer &amp; Videographer</h3>
+               <p><em>Freelance | Sept 2019 - June 2022</em></p>
+               <p>
+                  Delivered audio engineering, videography, and post-production services for diverse clients including musicians, political campaigns, and major retail projects – consistently meeting tight deadlines with creative precision.
+               </p>
+            </div>
+
+            <!-- Experience 4 -->
+            <div class="experience-card" data-aos="zoom-in" data-aos-delay="50">
+               <h3>Store Sales Manager &amp; Sales Executive</h3>
+               <p><em>Panasonic, Sony, Carpetright | July 2019 – January 2022</em></p>
+               <p>
+                  Achieved top sales rankings in the Southwest region by closing deals totaling over £2m in revenue, while training teams and enhancing customer satisfaction.
+               </p>
+            </div>
+
+         </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" data-aos="fade-up">
+         <h2>Education</h2>
+         <div class="education-cards">
+            <!-- Education 1 -->
+            <div class="education-card" data-aos="zoom-in">
+               <h3>BSc in AI and Computer Science with Industrial Year</h3>
+               <p><em>University of Birmingham | Sept 2022 – June 2026 (Expected)</em></p>
+               <p>
+                  Achieving a grade of 88% (99th Percentile) while focusing on advanced software engineering, data analytics, and innovative AI applications.
+               </p>
+            </div>
+            <!-- Education 2 -->
+            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
+               <h3>Urban Changemakers Summer School</h3>
+               <p><em>University of Amsterdam | July 2023 – August 2023</em></p>
+               <p>
+                  Engaged in intensive courses and workshops aimed at fostering innovative solutions for urban challenges.
+               </p>
+            </div>
+         </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" data-aos="fade-up">
+         <h2>Projects</h2>
+         <div class="project-cards">
+
+            <!-- Project 1 -->
+            <div class="project-card" data-aos="zoom-in">
+               <img src="./raiss-preview.png" alt="raiss Project" />
+               <h3>raiss.ai</h3>
+               <p>
+                  Co-founder &amp; Lead Developer of a next-generation shopping search platform. I spearhead the development of a scalable RAG AI agent system that combines ETL pipelines, auto-generated product taxonomies, and NER NLP pipelines to deliver personalized product recommendations.
+               </p>
+               <a href="https://raiss.ai/" target="_blank" class="button">Learn More</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+               <img src="./lowertones-preview.png" alt="lowertones Project" />
+               <h3>lowertones</h3>
+               <p>
+                  As Lead Developer and Agile Lead, I directed a team to build a music organization and metadata insight web-app using Spring Boot, PostgreSQL, and Angular, including custom search algorithms for mapping music identifiers.
+               </p>
+               <a href="#" class="button">Learn More</a>
+            </div>
+
+         </div>
+      </section>
+
+      <!-- CV Section -->
+      <section id="cv" data-aos="fade-up">
+         <h2>Curriculum Vitae</h2>
+         <div class="cv-container">
+            <div class="cv-actions">
+               <a href="William_Parkhouse_CV.pdf" download class="button">Download CV</a>
+            </div>
+            <div class="cv-viewer">
+               <iframe src="William_Parkhouse_CV.pdf" class="pdf-viewer"></iframe>
+            </div>
+         </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" data-aos="fade-up">
+         <h2>Contact</h2>
+         <div class="contact-container">
+            <p>
+               Feel free to reach out via email:
+               <a href="mailto:wjdparkhouse@gmail.com">wjdparkhouse@gmail.com</a>
+            </p>
+            <div class="social-media">
+               <a href="https://www.linkedin.com/in/wjdparkhouse/" target="_blank"><i class="fab fa-linkedin"></i></a>
+               <a href="https://github.com/willparkhouse" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!-- Footer Section -->
+   <footer>
+      <p class="footer-bottom">&copy; 2025 William Parkhouse. All rights reserved.</p>
+   </footer>
+
+   <!-- Scripts -->
+   <script src="script.js"></script>
+   <!-- AOS JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</body>
+
+</html>
