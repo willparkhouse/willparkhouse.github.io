@@ -158,10 +158,7 @@
     font-size: 1.3rem;
     margin-bottom: 20 x;
  }
- 
- p {
-      margin-bottom: 15px;
- }
+
  
  /* Main sections */
  main {
@@ -180,14 +177,23 @@
     scroll-margin-top: 40px;
  }
  
- section h2 {
+section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: var(--accent-color);
     border-bottom: 2px solid var(--accent-color);
     display: inline-block;
     padding-bottom: 5px;
- }
+}
+
+/* About section paragraph spacing */
+#about p {
+    margin-bottom: 18px;
+}
+
+#about p:last-child {
+    margin-bottom: 0;
+}
  
  /* Experience & Education Cards */
  .experience-cards,
