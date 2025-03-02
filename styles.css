@@ -156,7 +156,11 @@
  
  .hero-text p {
     font-size: 1.3rem;
-    margin-bottom: 20px;
+    margin-bottom: 20 x;
+ }
+ 
+ p {
+      margin-bottom: 15px;
  }
  
  /* Main sections */
